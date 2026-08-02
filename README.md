@@ -3,7 +3,7 @@
 
 [![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)](https://www.joomla.org)
 [![PHP](https://img.shields.io/badge/PHP-8.1%2B-green)](https://www.php.net)
-[![Version](https://img.shields.io/badge/Version-1.6.0-orange)](https://github.com/ferino75/plg_system_stripcomments/releases)
+[![Version](https://img.shields.io/github/v/release/ferino75/plg_system_stripcomments?label=Version&color=orange)](https://github.com/ferino75/plg_system_stripcomments/releases)
 [![License](https://img.shields.io/badge/License-GPLv2%2B-red)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 
