@@ -1,5 +1,10 @@
 # Changelog — plg_system_fgstripcomments
 
+## 2.0.1 – 2026-08-02
+- Fixed the plugin display name to `System - FG Strip Comments` — the
+  JED naming convention requires the `{Type} - {Extension Name}` format,
+  which was missed in the 2.0.0 rename.
+
 ## 2.0.0 – 2026-08-02
 - **Breaking:** renamed the plugin to "FG Strip Comments", the first of
   the FG series of Joomla extensions. The technical element changed from

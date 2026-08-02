@@ -1,4 +1,4 @@
-# FG Strip Comments plugin for Joomla
+# System - FG Strip Comments plugin for Joomla
 <img src="assets/logo.png" alt="plg_system_fgstripcomments logo" width="120" />
 
 [![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)](https://www.joomla.org)
@@ -39,7 +39,7 @@ shown on the public site.
 1. Download the latest release (`.zip`) from the [Releases](../../releases) tab.
 2. In the Joomla administrator go to **System → Install → Extensions**
    and upload the downloaded `.zip`.
-3. **System → Manage → Plugins** → find "FG Strip Comments" and
+3. **System → Manage → Plugins** → find "System - FG Strip Comments" and
    publish it.
 
 ## Plugin settings
