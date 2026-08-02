@@ -1,5 +1,10 @@
 # Changelog — plg_system_stripcomments
 
+## 1.6.1 – 2026-08-02
+- Added the required GPL license header comment to all PHP files
+  (`services/provider.php`, `src/Extension/StripComments.php`) — required
+  by the JED Checker / Joomla Extensions Directory submission rules.
+
 ## 1.6.0 – 2026-08-01
 - Added Joomla Update System support (`<updateservers>` in the manifest,
   plus a Joomla-format `updates.xml` feed) — required by the Joomla

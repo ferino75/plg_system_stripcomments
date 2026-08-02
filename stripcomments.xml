@@ -6,7 +6,7 @@
 	<creationDate>2026-06</creationDate>
 	<copyright>(C) 2026. GNU GPL v2 or later.</copyright>
 	<license>GNU General Public License version 2 or later</license>
-	<version>1.6.0</version>
+	<version>1.6.1</version>
 	<description>PLG_SYSTEM_STRIPCOMMENTS_XML_DESCRIPTION</description>
 	<namespace path="src">Custom\Plugin\System\StripComments</namespace>
 	<updateservers>
