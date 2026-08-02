@@ -53,7 +53,7 @@ shown on the public site.
 
 ## Requirements
 
-- Joomla 6
+- Joomla 6 (5+)
 - PHP 8.1+
 
 ## License
