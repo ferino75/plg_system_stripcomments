@@ -1,9 +1,9 @@
-# Strip Comments plugin for Joomla
-<img src="assets/logo.png" alt="plg_system_stripcomments logo" width="120" />
+# FG Strip Comments plugin for Joomla
+<img src="assets/logo.png" alt="plg_system_fgstripcomments logo" width="120" />
 
 [![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)](https://www.joomla.org)
 [![PHP](https://img.shields.io/badge/PHP-8.1%2B-green)](https://www.php.net)
-[![Version](https://img.shields.io/github/v/release/ferino75/plg_system_stripcomments?label=Version&color=orange)](https://github.com/ferino75/plg_system_stripcomments/releases)
+[![Version](https://img.shields.io/github/v/release/ferino75/plg_system_fgstripcomments?label=Version&color=orange)](https://github.com/ferino75/plg_system_fgstripcomments/releases)
 [![License](https://img.shields.io/badge/License-GPLv2%2B-red)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 
@@ -12,9 +12,9 @@ A Joomla 6 system plugin that removes internal marker tags
 titles, article titles, menu items, and so on — while keeping them fully
 visible in the administrator back-end.
 
-A modern replacement for the long-unavailable **BIGSHOT Strip Comments**
-plugin (for Joomla 1.5 – 3.x), rewritten for Joomla 6's plugin API and
-namespacing.
+Part of the **FG** series of Joomla extensions. A modern replacement for
+the long-unavailable **BIGSHOT Strip Comments** plugin (for Joomla
+1.5 – 3.x), rewritten for Joomla 6's plugin API and namespacing.
 
 ## Example
 
@@ -39,7 +39,7 @@ shown on the public site.
 1. Download the latest release (`.zip`) from the [Releases](../../releases) tab.
 2. In the Joomla administrator go to **System → Install → Extensions**
    and upload the downloaded `.zip`.
-3. **System → Manage → Plugins** → find "System - Strip Comments" and
+3. **System → Manage → Plugins** → find "FG Strip Comments" and
    publish it.
 
 ## Plugin settings

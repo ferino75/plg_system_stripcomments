@@ -2,13 +2,13 @@
 
 /**
  * @package     Joomla.Plugin
- * @subpackage  System.stripcomments
+ * @subpackage  System.fgstripcomments
  *
  * @copyright   (C) 2026 Fero. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE
  */
 
-namespace Custom\Plugin\System\StripComments\Extension;
+namespace FG\Plugin\System\StripComments\Extension;
 
 \defined('_JEXEC') or die;
 

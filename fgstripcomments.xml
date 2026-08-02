@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>plg_system_fgstripcomments</name>
+	<author>Fero</author>
+	<authorUrl>https://github.com/ferino75</authorUrl>
+	<creationDate>2026-06</creationDate>
+	<copyright>(C) 2026. GNU GPL v2 or later.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>2.0.0</version>
+	<description>PLG_SYSTEM_FGSTRIPCOMMENTS_XML_DESCRIPTION</description>
+	<namespace path="src">FG\Plugin\System\StripComments</namespace>
+	<updateservers>
+		<server type="extension" name="System - Strip Comments Update Site">https://raw.githubusercontent.com/ferino75/plg_system_fgstripcomments/master/updates.xml</server>
+	</updateservers>
+	<files>
+		<folder plugin="fgstripcomments">services</folder>
+		<folder>src</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/plg_system_fgstripcomments.ini</language>
+		<language tag="en-GB">language/en-GB/plg_system_fgstripcomments.sys.ini</language>
+		<language tag="sk-SK">language/sk-SK/plg_system_fgstripcomments.ini</language>
+		<language tag="sk-SK">language/sk-SK/plg_system_fgstripcomments.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="scope"
+					type="list"
+					label="PLG_SYSTEM_FGSTRIPCOMMENTS_SCOPE_LABEL"
+					description="PLG_SYSTEM_FGSTRIPCOMMENTS_SCOPE_DESC"
+					default="titles">
+					<option value="all">PLG_SYSTEM_FGSTRIPCOMMENTS_SCOPE_ALL</option>
+					<option value="titles">PLG_SYSTEM_FGSTRIPCOMMENTS_SCOPE_TITLES</option>
+				</field>
+				<field
+					name="open_delim"
+					type="text"
+					label="PLG_SYSTEM_FGSTRIPCOMMENTS_OPEN_DELIM_LABEL"
+					description="PLG_SYSTEM_FGSTRIPCOMMENTS_OPEN_DELIM_DESC"
+					default="{--" />
+				<field
+					name="close_delim"
+					type="text"
+					label="PLG_SYSTEM_FGSTRIPCOMMENTS_CLOSE_DELIM_LABEL"
+					description="PLG_SYSTEM_FGSTRIPCOMMENTS_CLOSE_DELIM_DESC"
+					default="--}" />
+				<field
+					name="run_admin"
+					type="radio"
+					layout="joomla.form.field.radio.switcher"
+					label="PLG_SYSTEM_FGSTRIPCOMMENTS_RUN_ADMIN_LABEL"
+					description="PLG_SYSTEM_FGSTRIPCOMMENTS_RUN_ADMIN_DESC"
+					default="0">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,4 +1,16 @@
-# Changelog — plg_system_stripcomments
+# Changelog — plg_system_fgstripcomments
+
+## 2.0.0 – 2026-08-02
+- **Breaking:** renamed the plugin to "FG Strip Comments", the first of
+  the FG series of Joomla extensions. The technical element changed from
+  `stripcomments` to `fgstripcomments` (folder, PHP namespace, language
+  file names, update feed) to avoid any future collision with another
+  developer's plugin using the same element name.
+- Because the element name changed, this is **not** a smooth in-place
+  update from 1.x — Joomla will install it as a new, separate plugin.
+  If a 1.x version is already installed somewhere, uninstall it first,
+  then install 2.0.0.
+- GitHub repository renamed accordingly to `plg_system_fgstripcomments`.
 
 ## 1.6.1 – 2026-08-02
 - Added the required GPL license header comment to all PHP files
