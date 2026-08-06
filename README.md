@@ -1,4 +1,4 @@
-<img src="assets/logo.png" alt="plg_system_fgstripcomments logo" width="120" />
+<img src="assets/fgstripcomments_banner.svg" alt="plg_system_fgstripcomments logo" />
 
 # FG Strip Comments plugin for Joomla
 
