@@ -6,6 +6,7 @@
 [![PHP](https://img.shields.io/badge/PHP-8.1%2B-green)](https://www.php.net)
 [![Version](https://img.shields.io/github/v/release/ferino75/plg_system_fgstripcomments?label=Version&color=orange)](https://github.com/ferino75/plg_system_fgstripcomments/releases)
 [![License](https://img.shields.io/badge/License-GPLv2%2B-red)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+![Downloads](https://img.shields.io/github/downloads/ferino75/plg_system_fgstripcomments/total?cacheSeconds=3600)
 
 
 A Joomla 6 system plugin that removes internal marker tags
