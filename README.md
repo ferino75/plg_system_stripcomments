@@ -1,6 +1,6 @@
 <img src="assets/logo.png" alt="plg_system_fgstripcomments logo" width="120" />
 
-# System - FG Strip Comments plugin for Joomla
+# FG Strip Comments plugin for Joomla
 
 [![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)](https://www.joomla.org)
 [![PHP](https://img.shields.io/badge/PHP-8.1%2B-green)](https://www.php.net)
