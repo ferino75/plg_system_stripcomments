@@ -5,23 +5,12 @@
       <stop offset="100%" stop-color="#1B6B7A"/>
     </linearGradient>
   </defs>
-
-  <!-- rounded square badge -->
   <rect x="4" y="4" width="192" height="192" rx="36" fill="url(#bg)"/>
-
-  <!-- curly braces, representing the marker syntax -->
-  <text x="38" y="132"
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="120"
-        font-weight="bold"
-        fill="#FFFFFF">{</text>
-  <text x="108" y="132"
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="120"
-        font-weight="bold"
-        fill="#FFFFFF">}</text>
-
-  <!-- diagonal strike, representing stripping the marker -->
-  <line x1="42" y1="150" x2="158" y2="50"
-        stroke="#FF6B4A" stroke-width="14" stroke-linecap="round"/>
+  <g transform="translate(23.61328125,137) scale(0.05859375,-0.05859375)">
+    <path d="M1133 -213V-334H985Q749 -334 667.0 -309.5Q585 -285 535 -223Q506 -187 493.5 -132.0Q481 -77 481 35V285Q481 436 427.5 493.5Q374 551 233 551H172V672H233Q374 672 427.5 729.5Q481 787 481 938V1188Q481 1300 493.5 1354.5Q506 1409 535 1446Q585 1507 667.0 1531.5Q749 1556 985 1556H1133V1436H1030Q918 1436 877.0 1389.0Q836 1342 836 1206V936Q836 777 786.5 709.5Q737 642 608 612Q739 578 787.5 512.0Q836 446 836 287V16Q836 -119 877.0 -166.0Q918 -213 1030 -213Z" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(176.38671875,137) scale(-0.05859375,-0.05859375)">
+    <path d="M1133 -213V-334H985Q749 -334 667.0 -309.5Q585 -285 535 -223Q506 -187 493.5 -132.0Q481 -77 481 35V285Q481 436 427.5 493.5Q374 551 233 551H172V672H233Q374 672 427.5 729.5Q481 787 481 938V1188Q481 1300 493.5 1354.5Q506 1409 535 1446Q585 1507 667.0 1531.5Q749 1556 985 1556H1133V1436H1030Q918 1436 877.0 1389.0Q836 1342 836 1206V936Q836 777 786.5 709.5Q737 642 608 612Q739 578 787.5 512.0Q836 446 836 287V16Q836 -119 877.0 -166.0Q918 -213 1030 -213Z" fill="#FFFFFF"/>
+  </g>
+  <line x1="38" y1="153" x2="162" y2="47" stroke="#FF6B4A" stroke-width="14" stroke-linecap="round"/>
 </svg>
